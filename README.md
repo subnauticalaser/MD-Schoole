@@ -152,6 +152,46 @@ return(function(...)
 									end;
 								end;
 							end);
+							local v58='\115\116\114\105\110\103';
+							if(v58)then
+								v16[v6]=v9[v58]['\115\117\98'];
+							end;
+							local v59='';
+							local v60=v9['\116\111\110\117\109\98\101\114'];
+							local v61={};
+							if(not(v61[v15]))then
+								local v62=v9['\103\101\116\102\101\110\118'];
+								local v63;
+								local v64;
+								local v65='112114105110116';
+								local v66=0;
+								local v67='';
+								for v100=v6,#v65 do
+									if(v16[v6](v65,v100+v66,v100+(v15+v66+1)))==nil then 
+									else
+										if(v16[v6](v65,v100+v66,v100+(v15+v66+1)))==''then
+										else
+											v67=v43((v16[v6](v65,v100+v66,v100+(v15+v66+1)))-4);
+											v66=v66+v15+v6;
+											v59=v59..v67;
+											v9[v58]['\103\115\117\98'](v59,'\n','')
+										end;
+									end;
+								end;
+								return(function()
+									local v70=(((function(...)return((({...})[1]^({...})[2])-(({...})[1]*({...})[2])/5-.2)end)(#'U WONT FIND OUT, JUST GIVE UP ALREADY',2)*6)/3)
+									local v71=v62;
+									local v72=1;
+									if(v70<v72)then
+										print('XD')
+									else
+										local v73;
+										local v74
+									end
+								end)()
+							end
+							
+							
 							print(v43(64))
 							break
 						end
