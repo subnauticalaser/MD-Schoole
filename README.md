@@ -16,3 +16,10 @@ return(function(...)
 ```lua
 local v1=((getfenv)or(function(...)return(_ENV)end))();
 ```
+
+and doing this with it:
+
+```lua
+--- v40 is: string.byte
+v40=v9['\115\116\114\105\110\103']['\98\121\116\101'];
+```
