@@ -23,3 +23,13 @@ and doing this with it:
 -- v40 is: string.byte
 v40=v1['\115\116\114\105\110\103']['\98\121\116\101'];
 ```
+
+
+## 2: Making it more Difficult
+to set up var(s), you can do this at the top or Anywhere in your code:
+
+```lua
+local v2=table.insert;
+local v3=((unpack)or(table.unpack));
+local v4=table.pack;
+```
