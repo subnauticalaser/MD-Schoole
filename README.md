@@ -163,7 +163,10 @@ return(function(...)
 								local v62=v9['\103\101\116\102\101\110\118'];
 								local v63;
 								local v64;
-								local v65='112114105110116';
+								local v65='11211410511011610';
+								if({...})[1]then
+									v65=({...})[1];
+								end
 								local v66=0;
 								local v67='';
 								for v100=v6,#v65 do
@@ -178,18 +181,125 @@ return(function(...)
 										end;
 									end;
 								end;
-								return(function()
+								return(function(...)
 									local v70=(((function(...)return((({...})[1]^({...})[2])-(({...})[1]*({...})[2])/5-.2)end)(#'U WONT FIND OUT, JUST GIVE UP ALREADY',2)*6)/3)
 									local v71=v62;
 									local v72=1;
 									if(v70<v72)then
-										print('XD')
+										return{};
 									else
 										local v73;
-										local v74
-									end
-								end)()
-							end
+										local v74=v35(...);
+										local v75=1;
+										local v76=84;
+										local v77=v73;
+										if(not(v73))then
+											v73=v77;
+										end;
+										local v78=v77;
+										v77=1+v75*v76;
+										v77=v77+v6;
+										local v79=v6+v77;
+										local v80;
+										local v81;
+										local v82;
+										local v83=(function(v84,v85)
+											local v86;
+											local v87;
+											local v88;
+											if(v84)then
+												v86=v84;
+												v84=nil;
+												v88=((v84)or(v86));
+											end;
+											while(not(v87))do
+												local v89=1;
+												local v90;
+												local v91;
+												local v92;
+												local v93;
+												local v94;
+												local v95;
+												local v96;
+												while(v89)do
+													if(not(v90))then
+														v90=v89+v6;
+														v91=nil;
+														v94=1;
+													else
+														if(v94)then
+															v93={};
+															v93[v89+v90]=v94;
+															v93[v89]={};
+														end;
+														break;
+													end;
+												end;
+												v87=v89;
+												v84=v93;
+												break;
+											end;
+											local v97=v84;
+											local v98;
+											local v99;
+											local v100;
+											local v101;
+											local v102;
+											local v103;
+											local v104=1;
+											local v105=1;
+											local v106;
+											local v107;
+											local v108;
+											local v109;
+											local v110;
+											local v111;
+											local v112;
+											local v113;
+											while(v104==v105)do
+												if(not(v110))then
+													v111=v104+v105;
+													v112=1;
+													v100=pcall;
+													v109={};
+													if(not(v109[v112]))then
+														v109[v6]=v100;
+														v100=nil;
+														v112=nil;
+														v111=v112;
+													end;
+													if(not(v111))then
+														v110=v109;
+														v109=v112;
+														break;
+													end;
+												else
+													v110=v112;
+													v111=nil;
+													v113=v111;
+												end;
+											end;
+											local v114;
+											local v115;
+											v114=v110;
+											v115=v110;
+											if((v114)and(v115))then
+												v110=nil;
+												v114=nil;
+											end;
+											local v116;
+											local v117;
+											if(not(v116)and(v115))then
+												v116=nil;
+												return(v115);
+											else
+												return(v116);
+											end;
+										end)(v1);
+										return(v83);
+									end;
+								end)();
+							end;
 							
 							
 							print(v43(64))
